@@ -1,0 +1,12 @@
+@import './fonts.scss';
+@import './variables.scss';
+@import './components.scss';
+@import './pages/pages.scss';
+body{
+    background-color: $main-bg;
+    font-family: $main-font;
+    font-weight: 600;
+    .wrapper{
+        padding-top: 30px;
+    }
+}

@@ -1,0 +1,80 @@
+.home-page-container{
+    display: flex;
+    flex-direction: column;
+    .resume-holder{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .personal-info-holder{
+            display: flex;
+            flex-direction: row;
+            width: 85%;
+            //background-color: red;
+            .contact-me-holder{
+                display: flex;
+                flex-direction: row;
+                background-color: #FFFFFF;
+                height: 200px;
+                min-width: 45%;
+                border-radius: 15px;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                .profile-image-holder{
+                    padding: 10px;
+                    height: 200px;
+                    img{
+                        border-radius: 15px;
+                    }
+                }
+                .data-holder{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 10px;
+                    width: 100%;
+                    .name-holder{
+                        display: flex;
+                        flex-direction: column;
+                        .name{
+                            font-size: 22px;
+                            user-select: none;
+                        }
+                        .current-position{
+                            font-size: 14px;
+                            color: $subtitle-gray;
+                            font-weight: normal;
+                            padding-top: 3px;
+                            user-select: none;
+                        }
+                    }
+                    .contact-items-list{
+                        .contact-item-holder{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            margin-bottom: 6px;
+                            .icon{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding-right: 10px;
+                            }
+                            .value{
+                                font-size: 13px;
+                                font-weight: 300;
+                                color: $text-gray;
+                                user-select: none;
+                            }
+                        }
+                    }
+                    .action-buttons{
+                        display: flex;
+                        flex-direction: row;
+                    }
+                }
+            }
+            .about-me-holder{
+                
+            }
+        }
+    }
+}

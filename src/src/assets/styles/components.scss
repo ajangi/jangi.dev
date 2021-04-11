@@ -1,0 +1,33 @@
+// buttons 
+.btn-holder{
+    display: flex;
+    padding: 3px 5px 0px 0px;
+    width: 100%;
+    .btn{
+        padding: 5px;
+        min-width: 100px;
+        border-radius: 5px;
+        background-color: white;
+        cursor: pointer;
+        border: none;
+        min-height: 40px;
+        font-size: 14px;
+        font-family: 'Biennale';
+        font-weight: 400;
+    }
+    .btn:focus{
+        border: none !important;
+        outline: none !important;
+    }
+    .btn-block{
+        width: 100%;
+    }
+    .btn-success{
+        background-color: $main-blue;
+        color: #FFFFFF;
+    }
+    .btn-primary{
+        background-color: $primary;
+        color: $subtitle-gray;
+    }
+}
