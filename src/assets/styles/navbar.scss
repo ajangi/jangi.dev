@@ -1,0 +1,26 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    min-height: 55px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 15px;
+    padding: 0px 30px 0px 30px;
+    .brand{
+        user-select: none;
+        font-size: 24px;
+        font-family: 'Biennale Heavy It';
+        margin-right: 30px;
+    }
+    .nav-items{
+        .nav-item{
+            user-select: none;
+            color: $text-gray;
+            text-decoration: none;
+            font-weight: 300;
+            padding: 0px 10px 0px 10px;
+            margin-left: 10px;
+        }
+    }
+}

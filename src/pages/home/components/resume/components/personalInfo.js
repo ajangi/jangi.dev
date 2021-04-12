@@ -4,10 +4,12 @@ import ContactMe from './contactInfo';
 
 const PersonalInfo = () => {
     return (
-        <div className="personal-info-holder">
-            <ContactMe />
-            <AboutMe />
-        </div>
+        <>
+            <div className="personal-info-holder">
+                <ContactMe />
+                <AboutMe />
+            </div>
+        </>
     )
 };
 

@@ -8,14 +8,13 @@
         .personal-info-holder{
             display: flex;
             flex-direction: row;
-            width: 85%;
-            //background-color: red;
+            justify-content: space-between;
             .contact-me-holder{
                 display: flex;
                 flex-direction: row;
                 background-color: #FFFFFF;
                 height: 200px;
-                min-width: 45%;
+                width: 45%;
                 border-radius: 15px;
                 box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
                 .profile-image-holder{
@@ -73,7 +72,62 @@
                 }
             }
             .about-me-holder{
-                
+                display: flex;
+                flex-direction: row;
+                background-color: #FFFFFF;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                width: 54%;
+                border-radius: 15px;
+                height: 200px;
+                .image-holder{
+                    height: 200px;
+                    padding: 10px;
+                    img{
+                        border-radius: 15px;
+                    }
+                }
+                .about-me{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    font-family: "Biennale";
+                    font-weight: normal;
+                    font-size: 15px;
+                    text-align: center;
+                    color: $subtitle-gray;
+                }
+            }
+        }
+        .skills-list-holder{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #FFFFFF;
+            margin-top: 15px;
+            border-radius: 15px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            .title{
+                padding: 10px;
+                font-size: 18px;
+            }
+            .skills-items{
+                padding: 0px 10px 10px 10px;
+                .skill-item{
+                    font-size: 13px;
+                    color: $subtitle-gray;
+                    font-weight: normal;
+                    padding-top: 3px;
+                    user-select: none;
+                    background-color: $main-gray;
+                    padding: 4px;
+                    border-radius: 5px;
+                    text-align: center;
+                    margin: 3px;
+                    float: left;
+                    min-width: 50px;
+                    border: 1px solid $primary;
+                }
             }
         }
     }
