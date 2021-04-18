@@ -1,12 +1,12 @@
 import React from 'react';
 import PersonalInfo from './components/personalInfo';
-import Skills from './components/skills';
+import ResumeDetails from './components/resumeDetails';
 
 const Resume = () => {
     return (
         <div className="resume-holder">
             <PersonalInfo />
-            <Skills />
+            <ResumeDetails />
         </div>
     )
 };

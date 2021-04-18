@@ -47,9 +47,9 @@ const Skills = () => {
     ];
     return (
         <div className="skills-list-holder">
-            <div className="title">
+            {/* <div className="title">
                 Skills
-            </div>
+            </div> */}
             <div className="skills-items">
                 {
                     skills_list.map((value, index) => {

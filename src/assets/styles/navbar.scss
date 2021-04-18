@@ -7,6 +7,9 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin-bottom: 15px;
     padding: 0px 30px 0px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     .brand{
         user-select: none;
         font-size: 24px;

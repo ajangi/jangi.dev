@@ -99,34 +99,229 @@
                 }
             }
         }
-        .skills-list-holder{
+        .resume-details-holder{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            padding: 10px;
+            width: 100%;
             justify-content: space-between;
-            background-color: #FFFFFF;
-            margin-top: 15px;
-            border-radius: 15px;
-            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-            .title{
-                padding: 10px;
-                font-size: 18px;
+            .resume-detail-items-holder{
+                display: flex;
+                width: 17%;
+                height: 100%;
+                .resume-detail-items{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    background-color: #FFFFFF;
+                    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                    border-radius: 10px;
+                    padding: 10px;
+                    .resume-detail-item{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        padding: 5px;
+                        user-select: none;
+                        cursor: pointer;
+                        margin-bottom: 5px;
+                        .icon-holder{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: $primary;
+                            padding: 10px;
+                            border-radius: 5px;
+                        }
+                        .icon-holder.active{
+                            background-color: $main-blue !important;
+                        }
+                        .item-title{
+                            padding-left: 20px;
+                            color: $subtitle-gray;
+                            font-weight: 400;
+                            font-size: 15px;
+                        }
+                        .item-title.active{
+                            color: #000000;
+                        }
+                    }
+                }
             }
-            .skills-items{
-                padding: 0px 10px 10px 10px;
-                .skill-item{
-                    font-size: 13px;
-                    color: $subtitle-gray;
-                    font-weight: normal;
-                    padding-top: 3px;
-                    user-select: none;
-                    background-color: $main-gray;
-                    padding: 4px;
-                    border-radius: 5px;
-                    text-align: center;
-                    margin: 3px;
-                    float: left;
-                    min-width: 50px;
-                    border: 1px solid $primary;
+            .resume-details-item-data{
+                display: flex;
+                width: 82%;
+                user-select: none;
+                height: 100%;
+                .experiences-holder{
+                    width: 100%;
+                    .experience-item-holder{
+                        border-radius: 10px;
+                        padding: 10px;
+                        background-color: #FFFFFF;
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        margin-bottom: 5px;
+                        .header{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            .data{
+                                margin-left: 5px;
+                                .company{
+                                    font-size: 15px;
+                                    font-weight: 400;
+                                    margin-right: 2px;
+                                    color: $subtitle-gray;
+                                    padding: 3px;
+                                    background-color: $primary;
+                                    border-radius: 5px;
+                                }
+                                .job-title{
+                                    margin-right: 2px;
+                                    color: $subtitle-gray;
+                                }
+                                .company-title{
+                                    font-size: 12px;
+                                    font-weight: 300;
+                                    margin-right: 2px;
+                                    margin-top: 2px;
+                                    color: $text-gray;
+                                }
+                                .date{
+                                    font-size: 12px;
+                                    font-weight: 300;
+                                    margin-left: 2px;
+                                    color: $text-gray;
+                                }
+                            }
+                        }
+                        .description{
+                            font-weight: 300;
+                            font-size: 13px;
+                            color: $text-gray;
+                            padding: 5px;
+                        }
+                        .actions{
+                            padding: 0px 5px 5px 5px;
+                            img{
+                                margin-right: 10px;
+                                margin-left: 20px;
+                            }
+                            .action-holder{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                color: $text-gray;
+                                font-weight: 300;
+                                font-size: 13px;
+                                padding: 3px 0px 3px 0px;
+                            }
+                        }
+                    }
+                }
+                .skills-list-holder{
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #FFFFFF;
+                    border-radius: 10px;
+                    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                    .title{
+                        padding: 10px;
+                        font-size: 18px;
+                    }
+                    .skills-items{
+                        padding: 10px;
+                        .skill-item{
+                            font-size: 12px;
+                            color: $subtitle-gray;
+                            font-weight: normal;
+                            padding-top: 3px;
+                            user-select: none;
+                            background-color: $main-gray;
+                            padding: 3px;
+                            border-radius: 5px;
+                            text-align: center;
+                            margin: 3px;
+                            float: left;
+                            min-width: 40px;
+                            border: 1px solid $primary;
+                        }
+                    }
+                }
+                .educations-list-holder{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    .education-item{
+                        background-color: #FFFFFF;
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        padding: 3px 0px 3px 0px;
+                        border-radius: 10px;
+                        padding: 10px;
+                        margin-bottom: 5px;
+                        .university{
+                            color: $subtitle-gray;
+                            .date{
+                                font-size: 12px;
+                                font-weight: 300;
+                                margin-left: 2px;
+                                color: $text-gray;
+                            }
+                        }
+                        .sub-title{
+                            font-weight: 300;
+                            font-size: 13px;
+                            color: $text-gray;
+                        }
+                        .meta-data{
+                            font-weight: 300;
+                            font-size: 13px;
+                            color: $text-gray;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+                .certificates-list-holder{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    .certificate-item{
+                        background-color: #FFFFFF;
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        padding: 3px 0px 3px 0px;
+                        border-radius: 10px;
+                        padding: 10px;
+                        margin-bottom: 5px;
+                        .title{
+                            color: $subtitle-gray;
+                        }
+                        .sub-title{
+                            font-weight: 300;
+                            font-size: 13px;
+                            color: $text-gray;
+                        }
+                    }
+                }
+                .projects-list-holder{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    .project-item{
+                        background-color: #FFFFFF;
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        padding: 3px 0px 3px 0px;
+                        border-radius: 10px;
+                        padding: 10px;
+                        margin-bottom: 5px;
+                        .title{
+                            color: $subtitle-gray;
+                        }
+                        .description{
+                            font-weight: 300;
+                            font-size: 13px;
+                            color: $text-gray;
+                        }
+                    }
                 }
             }
         }
