@@ -1,0 +1,15 @@
+@import './../general/fonts.scss';
+@import './../general/variables.scss';
+@import './../general/general.scss';
+@import './navbar.scss';
+@import './components.scss';
+@import './pages/pages.scss';
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    .container{
+        margin: auto;
+        margin-top: 56px;
+        width: 95%;
+    }
+}

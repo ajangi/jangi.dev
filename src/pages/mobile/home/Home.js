@@ -1,7 +1,7 @@
 import React from 'react';
 import Resume from './components/resume/resume';
 
-const Home = () => {
+const HomeMobile = () => {
     return(
         <div className="home-page-container">
             <Resume />
@@ -9,4 +9,4 @@ const Home = () => {
     )
 };
 
-export default Home;
+export default HomeMobile;

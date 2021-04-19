@@ -6,8 +6,6 @@ import PROJECTS_ICON from './../assets/images/icons/projects.svg';
 import PROJECTS_ACTIVE_ICON from './../assets/images/icons/projects_active.svg';
 import CERTIFICATES_ICON from './../assets/images/icons/certificates.svg';
 import CERTIFICATES_ACTIVE_ICON from './../assets/images/icons/certificates_active.svg';
-import ACHIEVEMENTS_ICON from './../assets/images/icons/achievements.svg';
-import ACHIEVEMENTS_ACTIVE_ICON from './../assets/images/icons/achievements_active.svg';
 import SKILLS_ICON from './../assets/images/icons/skills.svg';
 import SKILLS_ACTIVE_ICON from './../assets/images/icons/skills_active.svg';
 const detail_items = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import {certificates} from './../../../../../config/conf';
+import {certificates} from '../../../../../../config/conf';
 const Certificates = () => {
     return (
         <div className="certificates-list-holder">

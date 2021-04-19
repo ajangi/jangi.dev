@@ -1,5 +1,4 @@
 import React from 'react';
-import ResumeDetailItems from './resumeDetailItems';
 
 const ResumeetailItem = (props) => {
     const {icon, active_icon, title, active, onClick} = props;

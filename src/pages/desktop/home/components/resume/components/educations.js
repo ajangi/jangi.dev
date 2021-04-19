@@ -1,5 +1,5 @@
 import React from 'react';
-import {educations} from './../../../../../config/conf';
+import {educations} from '../../../../../../config/conf';
 const Educations = () => {
     return(
         <div className="educations-list-holder">

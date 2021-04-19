@@ -1,5 +1,5 @@
 import React from 'react';
-import {experiences} from './../../../../../config/conf';
+import {experiences} from '../../../../../../config/conf';
 import ExperienceItem from './ExperienceItem';
 const Experiences = () => {
     return (

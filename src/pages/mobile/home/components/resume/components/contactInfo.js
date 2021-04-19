@@ -1,14 +1,14 @@
 import React from 'react';
-import Button from '../../../../../components/buttons/Button';
-import ProfileImage from './../../../../../assets/images/avatar.jpg';
-import CallIcon from './../../../../../assets/images/icons/Calling.svg';
-import MailIcon from './../../../../../assets/images/icons/Message.svg';
+import Button from '../../../../../../components/buttons/Button';
+import ProfileImage from './../../../../../../assets/images/avatar.jpg';
+import CallIcon from './../../../../../../assets/images/icons/Calling.svg';
+import MailIcon from './../../../../../../assets/images/icons/Message.svg';
 import ContactItem from './contactItem';
 const ContactMe = () => {
     return (
         <div className="contact-me-holder">
             <div className="profile-image-holder">
-                <img src={ProfileImage} height={'180px'} alt={"avatar"} />
+                <img src={ProfileImage} height={'80px'} alt={"avatar"} />
             </div>
             <div className="data-holder">
                 <div className="name-holder">

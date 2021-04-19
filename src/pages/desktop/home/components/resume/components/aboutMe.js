@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from './../../../../../assets/images/setup.jpg';
+import Image from './../../../../../../assets/images/setup.jpg';
 const AboutMe = () => {
     return (
         <div className="about-me-holder">

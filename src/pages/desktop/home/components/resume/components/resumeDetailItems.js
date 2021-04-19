@@ -1,8 +1,8 @@
 import React from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 import ResumeetailItem from './resumrDetailItem';
-import {detail_items} from './../../../../../config/conf';
-import { setResumeActiveItem } from '../../../../../redux/actions/resume';
+import {detail_items} from '../../../../../../config/conf';
+import { setResumeActiveItem } from '../../../../../../redux/actions/resume';
 const ResumeDetailItems = () => {
     const dispatch = useDispatch();
     const {resume_active_item}  = useSelector(state => state.resume)

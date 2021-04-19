@@ -1,6 +1,6 @@
 import React from 'react';
 import PersonalInfo from './components/personalInfo';
-import ResumeDetails from './components/resumeDetails';
+import ResumeDetails from './components/resumeDetails'; 
 
 const Resume = () => {
     return (

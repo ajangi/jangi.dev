@@ -1,5 +1,5 @@
 import React from 'react';
-import {projects} from './../../../../../config/conf';
+import {projects} from '../../../../../../config/conf';
 const Projects = () => {
     return (
         <div className="projects-list-holder">

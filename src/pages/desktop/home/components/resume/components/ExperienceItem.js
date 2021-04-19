@@ -1,5 +1,5 @@
 import React from 'react';
-import Arrow from './../../../../../assets/images/icons/arrow.svg';
+import Arrow from './../../../../../../assets/images/icons/arrow.svg';
 const ExperienceItem = (props) => {
     const {company,conpany_title, title, date, short_description, actions} = props;
     return (
