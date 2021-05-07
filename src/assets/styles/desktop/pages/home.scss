@@ -23,6 +23,17 @@
                     img{
                         border-radius: 15px;
                     }
+                    .avatar-placeholder{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 180px;
+                        height: 180px;
+                        background-color: $primary;
+                        border-radius: 15px;
+                        color: $text-gray;
+                        font-size: 60px;
+                    }
                 }
                 .data-holder{
                     display: flex;

@@ -241,7 +241,7 @@ const experiences = [
     {
         company : 'QPage',
         conpany_title : 'A Quick version of future',
-        title : 'CTO (chief technology officer) & Full-Stack Develope — Tehran',
+        title : 'CTO (chief technology officer) & Full-Stack Developer — Tehran',
         date: {
             start_date : 'July 2019',
             end_date : ' October 2019'
@@ -261,7 +261,7 @@ const experiences = [
         title : 'CTO (chief technology officer) — Tehran',
         date: {
             start_date : 'June 2018',
-            end_date : '  July 201'
+            end_date : ' July 2019'
         },
         short_description : 'QPage aims to be the smartest way to start with from HR process management and initially with Selection process automations.',
         actions : [
@@ -271,6 +271,66 @@ const experiences = [
             "Designing and developing full-stack applications across multiple platforms using modern industry-adopted languages and frameworks",
             "Collaborating and co-developing with Application UI/UX Designer",
             "Participate in code reviews and developer testing to ensure quality",
+        ]
+    },
+    {
+        company : 'RahAvard Tose-e Danesh',
+        conpany_title : '',
+        title : 'Technical Team Lead  Full-Stack Developer - Tehran',
+        date: {
+            start_date : 'June 2018',
+            end_date : ' May 2019'
+        },
+        short_description : '',
+        actions : [
+            "work with onsite Manager and report proper statu",
+            "In-depth knowledge of PHP object oriented frameworks (Laravel framework",
+            "Sharing knowledge of tools and techniques with the wider team, both developers and non-developer",
+            "Coding, Leading and Unit Testing",           
+        ]
+    },
+    {
+        company : 'SnappBox',
+        conpany_title : 'smart on-demand logistics',
+        title : 'Product Development Engineer - Tehran',
+        date: {
+            start_date : 'February 2018',
+            end_date : ' July 2018'
+        },
+        short_description : '',
+        actions : [
+            "Collaborate with the Automation and Test team on identifying test cases for new features and regression testing",
+            "Build custom JavaScript MVC apps using  Angular",
+            "Participate in code reviews and ensures that all solutions are aligned to predefined design specifications",
+            "Develop user interface of application in an agile environment"
+        ]
+    },
+    {
+        company : 'Teleyare Co.',
+        conpany_title : 'online psychology counseling',
+        title : 'FullStack Developer - Tehran',
+        date: {
+            start_date : 'February 2017',
+            end_date : ' January 2018'
+        },
+        short_description : '',
+        actions : [
+            "Developing back-end side using Laravel framework and back-office",
+            "Developing Android/iOS applications using React Native"
+        ]
+    },
+    {
+        company : 'Kar118 Co.',
+        conpany_title : 'Job seeking online platform',
+        title : 'FullStack Developer - Tehran',
+        date: {
+            start_date : 'April 2016',
+            end_date : ' February 2017'
+        },
+        short_description : '',
+        actions : [
+            "Developing back-end side using Laravel framework and back-office",
+            "Developing Kar118 multilingual Android Application"
         ]
     }
 ];
