@@ -6,7 +6,7 @@ const AboutMe = () => {
                 <div>About Me</div>
             </div>
             <div className="about-me">
-            I really love programming and I have been doing it since I was 16. I also like engineering and project management which is clear from my educational background. Now, I work for start-ups as senior full-stack developer or technical team lead.
+            I want to apply for the Software Engineer position at your respected company. As someone who is highly focused and attentive to detail, I thrive on building quality systems that surpass end users expectations. I’m thrilled at the opportunity to show off my technical experties and leadership skills as part of your expert team.
             </div>
         </div>
     )

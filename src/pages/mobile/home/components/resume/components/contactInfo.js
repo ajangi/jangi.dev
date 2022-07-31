@@ -19,7 +19,7 @@ const ContactMe = () => {
                         Alireza Jangi
                     </div>
                     <div className="current-position">
-                        Technical Team Lead at SnappDoctor
+                        Technical Team Lead
                     </div>
                 </div>
                 <div className="contact-items-list">

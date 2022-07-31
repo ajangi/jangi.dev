@@ -1,7 +1,6 @@
 import React from 'react';
-import Arrow from './../../../../../../assets/images/icons/arrow.svg';
 const ExperienceItem = (props) => {
-    const {company,conpany_title, title, date, actions} = props;
+    const {company,conpany_title, title, date} = props;
     return (
         <div className="experience-item-holder">
             <div className="header">
@@ -14,7 +13,7 @@ const ExperienceItem = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="actions">
+            {/* <div className="actions">
                 {
                     actions.map((value,index) => {
                         return(
@@ -25,7 +24,7 @@ const ExperienceItem = (props) => {
                         )
                     })
                 }
-            </div>
+            </div> */}
         </div>
     )
 };

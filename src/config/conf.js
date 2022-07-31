@@ -69,19 +69,19 @@ const educations = [
         university : 'Shahrood University of Technology',
         sub_title : 'Shahrood — Master of Science (M.Sc), Tunneling and Underground Space Technology Engineering',
         date : {
-            start_date : 'September 2014',
-            end_date : 'September 2017'
+            start_date : 'Sep 2014',
+            end_date : 'Sep 2017'
         },
-        meta_data : 'In these years I developed three software. The first one is for measuring tunnel stress and strain using the Finite Element Method (FEM) using Matlab. The second was a software for fuzzy logic in mining engineering also using Matlab. The third one was a software for Discrete Fracture Network in rock mass using C++.'
+        meta_data : 'Thesis : Numerical Assessment of Influence of soil parameters on the seismic response of concrete segmental tunnel lining'
     },
     {
         university : 'University of Tehran',
         sub_title : 'Tehran — Bachelor of Science (B.Sc), Mining Engineering',
         date : {
-            start_date : 'September 2009',
-            end_date : 'September 2013'
+            start_date : 'Sep 2009',
+            end_date : 'Sep 2013'
         },
-        meta_data : 'Developed a software to find the numerical and visual optimized open pit mine'
+        meta_data : 'Thesis - Developing a software to find the numerical and visual optimized open pit mine'
     }
 ];
 const projects = [
@@ -193,12 +193,36 @@ const projects = [
 ];
 const experiences = [
     {
+        company : 'RoboCoin (Freelance)',
+        conpany_title : ' Crypto Trading Bot',
+        title : 'Technical Team Lead — Tehran',
+        date: {
+            start_date : 'Jul 2022',
+            end_date : 'Present'
+        },
+        short_description : 'RoboCoin is a crypto trading bot based on Machine Learning techniques. Developed using the RL (Reinforcement Learning) method to trade in the spot and futures market in Binance exchange.',
+        actions : [
+        ]
+    },
+    {
+        company : 'Xarb',
+        conpany_title : 'Tezos NFT Marketplace',
+        title : 'CTO— Tehran',
+        date: {
+            start_date : 'Aug 2021',
+            end_date : 'Jul 2022'
+        },
+        short_description : 'Xarb.io is an NFT marketplace on Tezos blockchain to provide the opportunity to create (Mint), buy, and sell unique, multi-edition authentic digital artworks on our platform. ',
+        actions : [
+        ]
+    },
+    {
         company : 'SnappDoctor',
         conpany_title : 'Online Medical and Psychology Consulting Platform',
-        title : 'Technical Team Lead & DevOps Engineer — Tehran',
+        title : 'Technical Team Lead — Tehran',
         date: {
             start_date : 'Jun 2020',
-            end_date : 'PRESENT'
+            end_date : 'Sep 2021'
         },
         short_description : 'SnappDoctor is an online medical and psychology  platform providing a wide range of doctors from educated and experienced people.',
         actions : [
@@ -220,9 +244,9 @@ const experiences = [
     {
         company : 'SnappMarket',
         conpany_title : 'Online Grocery Platform',
-        title : 'Senior Back-End Developer (Core Squad Tech Lead) — Tehran',
+        title : 'Senior BackEnd Developer — Tehran',
         date: {
-            start_date : 'October 2019',
+            start_date : 'Oct 2019',
             end_date : ' Jun 2020'
         },
         short_description : 'SnappMarket is an online grocery platform providing a wide range of assortment from fresh fruits and vegetables to beauty and wellness products. We are aimed at increasing the purchase power of customers by providing exceptional pricing and offerings while introducing a simpler and easier way to shop.',
@@ -241,10 +265,10 @@ const experiences = [
     {
         company : 'QPage',
         conpany_title : 'A Quick version of future',
-        title : 'CTO (chief technology officer) & Full-Stack Developer — Tehran',
+        title : 'Technical Team Lead — Tehran',
         date: {
             start_date : 'July 2019',
-            end_date : ' October 2019'
+            end_date : ' Oct 2019'
         },
         short_description : 'QPage aims to be the smartest way to start with from HR process management and initially with Selection process automations.',
         actions : [
@@ -258,10 +282,10 @@ const experiences = [
     {
         company : 'TiNexT',
         conpany_title : 'Smart Same Day courier service and Logistics',
-        title : 'CTO (chief technology officer) — Tehran',
+        title : 'Technical Team Lead — Tehran',
         date: {
-            start_date : 'June 2018',
-            end_date : ' July 2019'
+            start_date : 'Jun 2018',
+            end_date : ' Jul 2019'
         },
         short_description : 'QPage aims to be the smartest way to start with from HR process management and initially with Selection process automations.',
         actions : [
@@ -274,28 +298,12 @@ const experiences = [
         ]
     },
     {
-        company : 'RahAvard Tose-e Danesh',
-        conpany_title : '',
-        title : 'Technical Team Lead  Full-Stack Developer - Tehran',
-        date: {
-            start_date : 'June 2018',
-            end_date : ' May 2019'
-        },
-        short_description : '',
-        actions : [
-            "work with onsite Manager and report proper statu",
-            "In-depth knowledge of PHP object oriented frameworks (Laravel framework",
-            "Sharing knowledge of tools and techniques with the wider team, both developers and non-developer",
-            "Coding, Leading and Unit Testing",           
-        ]
-    },
-    {
         company : 'SnappBox',
         conpany_title : 'smart on-demand logistics',
         title : 'Product Development Engineer - Tehran',
         date: {
-            start_date : 'February 2018',
-            end_date : ' July 2018'
+            start_date : 'Feb 2018',
+            end_date : ' Jul 2018'
         },
         short_description : '',
         actions : [
@@ -308,10 +316,10 @@ const experiences = [
     {
         company : 'Teleyare Co.',
         conpany_title : 'online psychology counseling',
-        title : 'FullStack Developer - Tehran',
+        title : 'BackEnd Developer - Tehran',
         date: {
-            start_date : 'February 2017',
-            end_date : ' January 2018'
+            start_date : 'Feb 2017',
+            end_date : ' Jan 2018'
         },
         short_description : '',
         actions : [
@@ -322,10 +330,10 @@ const experiences = [
     {
         company : 'Kar118 Co.',
         conpany_title : 'Job seeking online platform',
-        title : 'FullStack Developer - Tehran',
+        title : 'BackEnd Developer - Tehran',
         date: {
-            start_date : 'April 2016',
-            end_date : ' February 2017'
+            start_date : 'Apr 2016',
+            end_date : ' Feb 2017'
         },
         short_description : '',
         actions : [

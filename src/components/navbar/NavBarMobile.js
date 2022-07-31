@@ -1,10 +1,9 @@
-import React, {useRef} from 'react';
-import MenuIcon from './../../assets/images/icons/menu.svg';
+import React from 'react';
 const NavBarMobile = () => {
-    const sidebarRef = useRef();
-    const toggleMenu = () => {
+    //const sidebarRef = useRef();
+/*     const toggleMenu = () => {
         sidebarRef.current.classList.toggle('open');
-    };
+    }; */
     return(
         <>
             <div className="nav-bar">
@@ -12,11 +11,11 @@ const NavBarMobile = () => {
                     Jangi.dev
                 </div>
             </div>
-            <div className="toggle-nav">
+            {/* <div className="toggle-nav">
                 <img src={MenuIcon} width={30} alt={"toggle-nav-bar"} onClick={toggleMenu} />
                 <div className="nav-items" ref={sidebarRef}>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 };
